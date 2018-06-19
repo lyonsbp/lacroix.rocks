@@ -6,7 +6,7 @@
       <v-btn flat to="/">Fun Facts</v-btn>
     </v-toolbar-items>
     <v-spacer></v-spacer>
-    <v-btn flat @click="changeTheme()">{{ themeString }}</v-btn>
+    <v-btn flat @click="changeTheme()">Swap Theme</v-btn>
   </v-toolbar>
 </template>
 
