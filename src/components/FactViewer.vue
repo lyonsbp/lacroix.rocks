@@ -1,6 +1,6 @@
 <template>
   <v-layout row align-center>
-    <v-flex xs3>
+    <v-flex xs2 lg3>
       <v-fab-transition>
         <v-btn
           v-show="!isFirstFact"
@@ -11,7 +11,7 @@
       </v-fab-transition>
     </v-flex>
 
-    <v-flex xs6>
+    <v-flex xs8 lg6>
       <v-card class="fact-card">
         <v-card-title>
           <div class="headline">Lacroix Fun Facts!</div>
@@ -25,7 +25,7 @@
       </v-card>
     </v-flex>
 
-    <v-flex xs3>
+    <v-flex xs2 lg3>
       <v-fab-transition>
         <v-btn
           v-show="!isLastFact"
