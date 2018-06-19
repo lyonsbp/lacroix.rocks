@@ -8,7 +8,9 @@ export default new Vuex.Store({
     darkTheme: true
   },
   mutations: {
-
+    swapTheme (state) {
+      state.darkTheme = !state.darkTheme
+    }
   },
   actions: {
 

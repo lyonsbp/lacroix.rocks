@@ -68,7 +68,11 @@ export default {
     },
     randomFact () {
       let randomNum = Math.floor(Math.random() * this.numFacts)
-      this.currentFact = randomNum === this.currentFact ? this.randomFact() : randomNum
+      if (randomNum !== this.currentFact) {
+        this.currentFact = randomNum
+      } else {
+        this.randomFact()
+      }
     }
   },
   computed: {

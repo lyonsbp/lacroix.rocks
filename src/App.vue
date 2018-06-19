@@ -3,7 +3,7 @@
     <toolbar-component/>
     <v-content>
       <v-container>
-        <fact-viewer/>
+        <router-view />
       </v-container>
     </v-content>
   </v-app>
