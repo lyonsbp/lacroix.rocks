@@ -50,7 +50,8 @@ export default {
         2: `LaCroix has often been likened to "an orgasm in a can".`,
         3: `LaCroix tastes like freedom unleashed.`,
         4: `LaCroix is single-handedly saving the pandas from extinction. 🐼`,
-        5: `"Pamplemousse" is a funny word.`
+        5: `"Pamplemousse" is a French for "Grapefruit".`
+        6: ``
       },
       currentFact: 0
     }
